@@ -1,0 +1,7 @@
+(executables
+  (names main)
+  (libraries poko))
+
+(install
+  (section bin)
+  (files (main.exe as poko)))

@@ -1,0 +1,12 @@
+opam-version: "2.0"
+name: "poko"
+version: "~dev"
+synopsis: "x"
+description: "x"
+maintainer: "Phillip Raffnsøe <phillip@praffn.dk>"
+authors: "Phillip Raffnsøe <phillip@praffn.dk>"
+license: "MIT"
+homepage: "praffn.dk"
+build: ["dune" "build" "-p" name "-j" jobs]
+install: [make "install"]
+dev-repo: "git+https://"
